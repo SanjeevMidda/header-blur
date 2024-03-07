@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 980px;
+  background-color: rgba(218, 218, 218, 0.488);
+  position: fixed;
+  top: 0px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.square {
+  margin: 50px;
+  color: white;
+  padding: 10px;
+  filter: blur(5px);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.App:nth-child(1) {
+  margin-top: 50px;
+}
